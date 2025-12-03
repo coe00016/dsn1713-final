@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/shield_ART.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Yale School Of Art
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="apply.html">Apply</a>
+          <a class="nav-link" href="#">News</a>
+          <a class="nav-link" href="exhibitions.html">Exhibitions</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-2">
+    <div class="hero-content text-center text-white">
+      <h1>Your Art Journey Starts Here.</h1>
+        <p>Apply to any one of our amazing courses and take the opportunity to upgrade your knowledge and skill levels of art and design.</p>
+        <a href="#" class="btn btn-danger btn-lg">Apply Now!</a>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container text-center">
+  
+      <h2 class="mb-4">OUR PROGRAMS</h2>
+  
+      <!-- Filter Buttons -->
+      <div class="mb-4">
+        <button class="btn btn-primary filter-btn" data-category="all">All</button>
+        <button class="btn btn-outline-primary filter-btn" data-category="design">Design</button>
+        <button class="btn btn-outline-primary filter-btn" data-category="programming">Programming</button>
+        <button class="btn btn-outline-primary filter-btn" data-category="marketing">Marketing</button>
+      </div>
+  
+      <!-- Program Cards -->
+      <div class="row g-4" id="programList">
+  
+        <div class="col-md-3 program-card" data-category="design">
+          <div class="card h-100">
+            <img src="graphic-design.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center">
+              <h6 class="card-title">Graphic Design</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 program-card" data-category="design">
+          <div class="card h-100">
+            <img src="photography.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center">
+              <h6 class="card-title">Photography</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 program-card" data-category="design">
+          <div class="card h-100">
+            <img src="sculpting.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center">
+              <h6 class="card-title">Sculpting</h6>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-3 program-card" data-category="design">
+          <div class="card h-100 position-relative">
+            <img src="printmaking.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center">
+              <h6 class="card-title">Printmaking</h6>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- APPLICATION STEPS SECTION -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">MAKE YOUR APPLICATION EASY!</h2>
+  
+      <div class="row text-center steps-row">
+  
+        <div class="col-3">
+          <div class="step-circle">1</div>
+          <p>Step 1</p>
+        </div>
+  
+        <div class="col-3">
+          <div class="step-circle">2</div>
+          <p>Step 2</p>
+        </div>
+  
+        <div class="col-3">
+          <div class="step-circle">3</div>
+          <p>Step 3</p>
+        </div>
+  
+        <div class="col-3">
+          <div class="step-circle">4</div>
+          <p>Step 4</p>
+        </div>
+  
+      </div>
+  
+      <a href="#" class="mt-3 d-block">View Step-by-Step Application Guide ></a>
+    </div>
+  </section>
+
+
+  <section class="py-5 bg-primary text-white justify-content-center" id="why-yale">
+    <div class="container">
+        <h2 class="mb-5">Why Choose Yale School of Art?</h2>
+  
+        <div class="row justify-content-center">
+            <!-- Students -->
+            <div class="col-12 col-md-4 mb-4 fade-item">
+                <img src="images/premium_photo-1663054815371-9aaf7004d9b2.jpeg" class="rounded-circle mb-3 feature-img" alt="Students">
+                <p class="fw-semibold fs-5">Students</p>
+            </div>
+  
+            <!-- Professors -->
+            <div class="col-12 col-md-4 mb-4 fade-item">
+                <img src="images/download.jpeg" class="rounded-circle mb-3 feature-img" alt="Professors">
+                <p class="fw-semibold fs-5">Professors</p>
+            </div>
+  
+            <!-- Programs -->
+            <div class="col-12 col-md-4 mb-4 fade-item">
+                <img src="images/images (1).jpeg" class="rounded-circle mb-3 feature-img" alt="Programs">
+                <p class="fw-semibold fs-5">Programs</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+</body>
+</html>
