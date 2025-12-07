@@ -5,6 +5,12 @@ nav {
 .navbar-nav {
   padding-left: 70px;
 }
+
+@media (max-width: 900px) {
+  .hero .hero-2 .hero-3 {height: 80vh;}
+}
+
+
 footer {
   background: #1f4fb8;
 }
