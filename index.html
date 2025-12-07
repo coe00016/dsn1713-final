@@ -5,30 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-  <nav class="navbar bg-primary" data-bs-theme="dark">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
+    <div class="container-fluid d-flex">
       <a class="navbar-brand" href="#">
         <img src="images/shield_ART.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
         Yale School Of Art
       </a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-light" type="submit">Search</button>
-      </form>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           <a class="nav-link" href="apply.html">Apply</a>
           <a class="nav-link" href="#">News</a>
           <a class="nav-link" href="exhibitions.html">Exhibitions</a>
         </div>
       </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
     </div>
   </nav>
 
@@ -36,59 +42,113 @@
   <div class="container"> 
     <div class="d-flex justify-content-center align-items-center">
       <div class="hero-content text-center text-white">
-        <h1>Yale School Of Art</h1>
+        <h1 class="animate__animated animate__bounce">Yale School Of Art</h1>
           <p>Where critical thinking meets creativity.</p>
-          <a href="#" class="btn btn-danger btn-lg">Discover the School</a>
+          <a href="#" class="btn btn-danger btn-lg animate__animated animate__bounceIn">Discover the School</a>
       </div>
      </div>
     </div>  
 </section>
 
-<section>
-<div class="accordion accordion-flush container-sm" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Current Students
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
+<div class="container py-5">
+
+  <h2 class="mb-4 text-uppercase">About the School</h2>
+
+  <div class="row">
+    
+    <div class="col-md-6">
+      <img src="images/gallery_flower_table.webp" class="img-fluid mb-3 rounded" alt="">
+      <img src="images/gallery_fun.webp" class="img-fluid rounded" alt="">
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Faculty & Staff
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this being filled with some actual content.</div>
+
+  
+    <div class="col-md-4">
+      <div class="text">
+        <p>
+          The Yale School of Art stands at the intersection of tradition and innovation, fostering a community where artists and thinkers challenge conventions and expand the possibilities of visual expression. As one of the nation's leading art institutions, the School embraces experimentation and dialogue across disciplines - from painting and sculpture to photography, graphic design, and new media.
+        </p>
+      </div>
+        <p>
+          Rooted in Yale's broader academic environment, the School cultivates an atmosphere of critical inquiry and creative freedom. Students and faculty engage in a continuous exchange of ideas that pushes the boundaries of what art can achieve within culture and society. Every studio, critique, and exhibition becomes a space for discovery - shaping artists who redefine the contemporary landscape.
+        </p>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Facilities
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item’s accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Resources
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item’s accordion body.</div>
+ 
+    
+    <div class="col-md-2">
+
+      <div class="card p-3 mb-3 shadow-sm">
+        <h6 class="text-uppercase">Quick Links</h6>
+        <ul class="list-unstyled mt-2">
+          <li><a href="#">Current Students</a></li>
+          <li><a href="#">Faculty & Staff</a></li>
+          <li><a href="#">Facilities</a></li>
+          <li><a href="#">Resources</a></li>
+        </ul>
+      </div>
+
+      <div class="card p-3 shadow-sm">
+        <button class="btn btn-light btn-sm w-100 mb-2">Edit This Page</button>
+        <button class="btn btn-light btn-sm w-100">Edit History</button>
+      </div>
+
     </div>
   </div>
 </div>
 
-</section>
+<div class="container py-5">
+
+  <h2 class="mb-4 text-uppercase">Announcements</h2>
+
+  <div class="row align-items-center">
+
+    
+    <div class="col-md-3">
+      <div class="bg-primary text-white text-center p-4 rounded shadow-sm">
+        <div class="fs-4 fw-bold text-uppercase">Oct.</div>
+        <div class="display-5 fw-bold">17</div>
+        <div class="fs-6">2025</div>
+      </div>
+    </div>
+
+    
+    <div class="col-md-9">
+      <h4 class="fw-bold">Open Studio Week Begins</h4>
+      <p>
+        Join us as students across all departments open their studio doors to the public. Experience the process behind their ongoing projects, from experimental Installations to digital explorations. Open Studio Week is an Invitation to engage with the creative community, exchange ideas, and witness the diversity of artistic practice within the
+      </p>
+
+      <p><strong>Dates:</strong> October 17–21, 2025<br>
+         <strong>Location:</strong> Green Hall and surrounding studios</p>
+    </div>
+
+  </div>
+</div>
+
+<footer class="bg-primary text-white py-3">
+  <div class="container">
+    <div class="row text-center">
+
+      <div class="col-6 col-md-3 mb-2 mb-md-0">
+        <a href="#" class="footer-link text-white text-decoration-none">Support the School</a>
+      </div>
+
+      <div class="col-6 col-md-3 mb-2 mb-md-0">
+        <a href="#" class="footer-link text-white text-decoration-none">Contact</a>
+      </div>
+
+      <div class="col-6 col-md-3 mb-2 mb-md-0">
+        <a href="#" class="footer-link text-white text-decoration-none">Accessibility</a>
+      </div>
+
+      <div class="col-6 col-md-3 mb-2 mb-md-0">
+        <a href="#" class="footer-link text-white text-decoration-none">Visiting</a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

@@ -1,5 +1,21 @@
+nav {
+  background: #1f4fb8;
+}
+
+.navbar-nav {
+  padding-left: 70px;
+}
+footer {
+  background: #1f4fb8;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 .hero {
-    height: 100vh; 
+    height: 60vh; 
     background-image: url('../images/hero1.avif');
     background-size: cover;      
     background-position: center; 
@@ -11,8 +27,19 @@
 }
 
 .hero-2 {
-    height: 100vh; 
-    background-image: url('../images/hero2.png');
+    height: 60vh; 
+    background-image: url('../images/sculpt.webp');
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-3 {
+  height: 60vh; 
+    background-image: url('../images/hero3.jpg');
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat; 
@@ -83,12 +110,13 @@
     padding: 40px 30px;
     border-radius: 12px;
     font-size: 1.5rem;
-    font-family: Georgia, serif; /* to match serif style */
+    font-family: Georgia, serif; 
     text-decoration: none;
     display: block;
   }
   
   .blue-btn {
+    height: 20vh;
     background: #1f4fb8;
     color: white;
   }
@@ -99,6 +127,7 @@
   }
   
   .yellow-btn {
+    height: 20vh;
     background: #f2c512;
     color: black;
   }
@@ -108,4 +137,32 @@
     width: 60%;
     margin: 0 auto;
   }
-  
+
+
+  h1 {
+    font-family: "Georgia", serif;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-family: "Georgia", serif;
+    letter-spacing: 1px;
+  }
+
+  .card h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .date-card {
+    font-family: monospace;
+  }
+
+  .why-choose {
+    padding-bottom: 40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text {
+    padding-bottom: 230px
+  }
